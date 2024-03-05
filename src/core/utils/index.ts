@@ -249,10 +249,6 @@ const parseStaticValue = (v: any) => {
   }
 };
 
-const stringifyStaticValue = (v: any) => {
-  return JSON.stringify(v);
-};
-
 const AsyncFunction = (async () => {}).constructor;
 
 export const parseValueFromCtx = (prop: PropType, ctx: Record<string, any>) => {

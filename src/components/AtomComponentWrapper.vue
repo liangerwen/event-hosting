@@ -11,6 +11,7 @@ export interface AtomComponentWrapperProps {
 
 const props = withDefaults(defineProps<AtomComponentWrapperProps>(), {
   modelValue: {
+    // @ts-ignore
     type: "static",
     value: undefined,
   },
